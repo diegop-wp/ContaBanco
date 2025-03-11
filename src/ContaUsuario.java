@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ContaUsuario {
     public static void main(String[] args) {
-        // Criando o objeto Scanner para capturar dados do terminal
+
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar o número da conta
@@ -22,7 +22,7 @@ public class ContaUsuario {
         System.out.println("Por favor, digite o saldo da conta:");
         double saldo = scanner.nextDouble();
 
-        // Criar a instância de Conta com os dados inseridos
+
         ContaBancaria conta = new ContaBancaria(numeroConta, agencia, nomeCliente, saldo);
 
         // Exibir as informações da conta
