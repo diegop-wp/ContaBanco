@@ -15,7 +15,7 @@ public class ContaUsuario {
 
         // Solicitar o nome do cliente
         System.out.println("Por favor, digite o nome do cliente:");
-        scanner.nextLine(); // Limpar o buffer de entrada
+        scanner.nextLine();
         String nomeCliente = scanner.nextLine();
 
         // Solicitar o saldo da conta
@@ -28,7 +28,7 @@ public class ContaUsuario {
         // Exibir as informações da conta
         conta.exibirInformacoes();
 
-        // Fechar o scanner
+
         scanner.close();
     }
 }

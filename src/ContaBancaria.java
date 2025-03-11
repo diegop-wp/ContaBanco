@@ -1,11 +1,11 @@
 public class ContaBancaria {
-    // Atributos da conta bancária
+
     private int numeroConta;
     private String agencia;
     private String nomeCliente;
     private double saldo;
 
-    // Construtor para inicializar os atributos
+
     public ContaBancaria(int numeroConta, String agencia, String nomeCliente, double saldo) {
         this.numeroConta = numeroConta;
         this.agencia = agencia;
@@ -13,7 +13,7 @@ public class ContaBancaria {
         this.saldo = saldo;
     }
 
-    // Métodos getters (para acessar os atributos)
+    // Métodos getters
     public int getNumeroConta() {
         return numeroConta;
     }
